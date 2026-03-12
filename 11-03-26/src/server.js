@@ -4,10 +4,10 @@ const port = 3000
 
 
 let frutas = [
-  
-  {ID: 1, nome: "Laranja"}
-  {ID: 2, nome: "Morango"}
-  ]
+
+  { ID: 1, nome: "Laranja" }
+  { ID: 2, nome: "Morango" }
+]
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -16,3 +16,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+  
